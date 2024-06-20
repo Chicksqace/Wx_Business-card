@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="parent">
+  <view class="skip">跳过</view>
+  <image class="chahua" src="../../img/welcome/chahua.png"></image>
+  <view class="prompt">让人脉一网即达</view>
+  <image class="logo" src="../../img/welcome/zz_logo.png"></image>
+  <button open-type="getUserInfo" class="btn" bindgetuserinfo="onGotUserInfo">立即体验</button>
+</view>

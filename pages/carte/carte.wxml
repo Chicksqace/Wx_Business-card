@@ -1,0 +1,92 @@
+<view  class="main">
+        <view class="d-row space-between  m-search">
+            <view class="search-about justify-start d-row">
+                <image class="icon-search" src="../../img/carte/search.png"></image>
+                <input type="text" value=""/>
+            </view>
+            <view class="code-about justify-content d-column">
+                <image class="icon-code" src="../../img/carte/icon-code.png" />
+                <text class="ft18 mt10">拍名片</text>
+            </view>
+        </view>
+
+        <view class="tab-nav justify-content d-row">
+            <view class="tab-list justify-content d-column">
+                <text class="c-font-1 ft36">名片夹</text>
+                <view class="tab-com-border active-border"></view>
+            </view>
+            <view class="tab-list justify-content d-column">
+                <text class="c-font-1 ft36">群组</text>
+                <view class="tab-com-border"></view>
+                </view>
+        </view>
+
+        <view class="m-cart">
+            <view class="m-carte-list">
+               <view class="carte-content d-row">
+                    <image class="carte-photo" src="../../img/index/profile.jpg"></image>
+                    <view class="friend-infor d-column">
+                        <view class="infor-base justify-start d-row">   
+                            <text class="friend-name ft36">彭于晏</text>  
+                            <text class="friend-position ft24">   产品总监</text>   
+                        </view>
+                        <view class="friend-company ft18">深圳某某媒体产业有限公司</view>
+                    </view>
+               </view>
+               <view class="message d-column">
+                    <image class="icon-message" src="../../img/carte/icon-message.png"></image>
+                    <text class="message-txt ft24">留言</text>
+               </view>
+               <view class="collect">
+                   <view class="justify-content d-column collect-img">
+                        <image class="collect-bg" src="../../img/carte/collect-bg.png"></image>
+                        <image class="icon-collect" src="../../img/carte/icon-collect.png"></image>
+                   </view>
+               </view>
+            
+            </view>
+
+            <view class="m-carte-list">
+               <view class="carte-content d-row">
+                    <image class="carte-photo" src="../../img/index/profile.jpg"></image>
+                    <view class="friend-infor d-column">
+                        <view class="infor-base justify-start d-row">   
+                            <text class="friend-name ft36">彭于晏</text>  
+                            <text class="friend-position ft24">   产品总监</text>   
+                        </view>
+                        <view class="friend-company ft18">中智融合数字媒体产业（武汉）有限公司</view>
+                    </view>
+               </view>
+               <view class="message d-column">
+                    <image class="icon-message" src="../../img/carte/icon-message.png"></image>
+                    <text class="message-txt ft24">留言</text>
+               </view>
+               <view class="collect">
+                   <view class="justify-content d-column collect-img">
+                        <image class="collect-bg" src="../../img/carte/collect-bg.png"></image>
+                        <image class="icon-collect" src="../../img/carte/icon-collect.png"></image>
+                   </view>
+               </view>
+            
+            </view>
+
+            <view class="m-carte-list">
+               <view class="carte-content d-row">
+                    <image class="carte-photo" src="../../img/index/profile.jpg"></image>
+                    <view class="friend-infor d-column">
+                        <view class="infor-base justify-start d-row">   
+                            <text class="friend-name ft36">彭于晏</text>  
+                            <text class="friend-position ft24">   产品总监</text>   
+                        </view>
+                        <view class="friend-company ft18">深圳某某媒体产业有限公司</view>
+                    </view>
+               </view>
+               <view class="message d-column">
+                    <image class="icon-message" src="../../img/carte/icon-message.png"></image>
+                    <text class="message-txt ft24">留言</text>
+               </view>            
+            </view>
+
+        
+        </view>
+</view>

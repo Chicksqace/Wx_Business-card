@@ -1,0 +1,222 @@
+/**index.wxss**/
+@import "../../common/common.wxss";
+.w100 {
+  width: 100%;
+}
+
+.p-card {
+ display: flex;
+ justify-content: center;
+  padding-left: 54rpx;
+  padding-right: 54rpx;
+}
+
+.profile {
+  width: 174rpx;
+  height: 174rpx;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  position: absolute;
+}
+
+.content {
+  padding: 30rpx;
+  margin-top: 96rpx;
+  width: 90%;
+  border: 4rpx solid #5bccb1;
+  border-radius: 16rpx;
+  background:#fff;
+}
+
+.content-top {
+  min-height: 66rpx;  
+  width: 100%;
+}
+
+.content-detail {
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+
+}
+
+.content-top-img {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+
+.content-detail-top view {
+  flex-flow: row;
+}
+
+.name {
+  font-size: 40rpx;
+  font-weight: 900;
+  padding: 8rpx;
+}
+
+.title {
+  font-size: 24rpx;
+  padding: 4rpx;
+  color: #acacac;
+}
+.icon {
+  margin: 32rpx;
+}
+
+.detail-bottom {
+  padding-left:45rpx;
+  padding-right:45rpx;
+}
+
+.item {
+  margin: 20rpx;
+  flex-flow: row;
+  width: 100%;
+}
+
+
+.foot {
+  margin-top: 28rpx;
+  flex-flow: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.position {
+  height: 100%;
+  align-items: flex-end;
+  right: 0rpx;
+}
+
+.items {
+  flex-flow: row;
+  height: auto;
+  align-items: flex-end;
+}
+
+.pcard-foot {
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 32prx;
+}
+
+.address {
+  justify-content: space-between;
+}
+
+.address_view {
+  flex-flow: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent {
+  width: 100%;
+}
+.m-footer{
+  margin-top: 50rpx;
+}
+.menu-icon{
+  width: 84rpx;
+  height: 84rpx;
+}
+.menu-title-txt{
+  color: rgb(255, 255, 255);
+}
+.menu-list{
+  flex: 1;
+}
+.menu-list-middle{
+  margin-left: 130rpx;
+  margin-right: 130rpx;
+}
+
+.index-bg {
+  width: 100%;
+  height:100%;
+}
+.m-more{
+  margin-top: 50rpx;
+  margin-bottom: 36rpx;
+}
+.more-btn{
+    width: 44rpx;
+    height: 44rpx;
+}
+.hide{
+  display: none;
+ }
+ .show{ 
+  display: block;
+ }
+
+ .home-company{
+  margin-top: 84rpx;
+  padding-left: 54rpx;
+  padding-right: 54rpx;
+}
+.icon-border{
+  border-width:5rpx;
+  height:25rpx;
+  border-radius:15rpx;    
+}
+.firm-name{
+  font-size:32rpx;
+  font-weight:bold;
+  margin-left:20rpx;    
+}
+.photo-model{
+  margin: 46rpx 0rpx 32rpx 0rpx;
+}
+.photo-swiper{
+  margin-top: 26rpx;
+  justify-content: space-between;
+}
+.icon-up{
+  width: 50rpx;
+  height: 50rpx;
+}
+.video-play {
+  border-width:1rpx;
+  height:316rpx;
+  width:100%;
+  border-radius:15rpx;
+  margin-bottom: 78rpx;
+}  
+.tip-txt {
+  font-size:22rpx;
+  color:rgb(93, 93 , 93);
+  line-height:20rpx;
+  margin-top: 58rpx;  
+}  
+
+.creation-btn{
+    font-size: 36rpx;
+    height: 70rpx;
+    border-radius: 50rpx;
+    color: rgb(255, 255, 255);
+}
+.creation-btn image{
+    margin-left: 15rpx;
+}

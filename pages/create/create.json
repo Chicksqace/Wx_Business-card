@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "pCard": "../../widget/p-card/p-card",
+    "pInput": "../../widget/p-input/p-input",
+    "pHead": "../../widget/p-head/p-head"
+  }
+}

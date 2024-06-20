@@ -1,0 +1,115 @@
+.m-search{
+    margin-top:36rpx;
+    margin-left:54rpx;
+    margin-right:54rpx;
+}
+.search-about{
+    box-shadow: 0px 0px 10px rgb(91, 204, 177);
+    border-radius:50rpx;
+    flex:1;
+    margin-right:60rpx;
+    padding-left:34rpx;
+    padding-right:34rpx;
+    height:80rpx;
+}
+.search-about input{
+    margin-left:30rpx;
+    font-size:24rpx;
+    color:rgb(158,158,158);
+    flex:1;
+}
+.icon-search,.icon-code{
+    width:32rpx;
+    height:32rpx;
+}
+.code-about{
+    width:60rpx;
+    height:80rpx;
+}
+.icon-code-text{
+    margin-top:10rpx;
+}
+
+.tab-nav{
+    margin-top:52rpx;
+}
+.tab-list{
+    flex:1;
+    text-align:center
+}
+.tab-com-border {
+    background:#fff;
+    border:2rpx solid #fff;
+    width:110rpx;
+}
+.active-border{
+    background:rgb(92,205,177);
+    border:2rpx solid rgb(92,205,177);
+    width:110rpx;
+    margin-top:11rpx;
+}
+
+.m-cart{
+    margin-bottom:48rpx;
+}
+.m-carte-list{
+    margin-top:48rpx;
+    margin-left:54rpx;
+    margin-right:54rpx;
+    padding:38rpx 32rpx 38rpx 32rpx;
+    box-shadow: 0px 0px 10px rgb(91, 204, 177);
+    position:relative;
+    border-radius:10rpx;
+}
+.friend-infor{
+    flex:1;
+    margin-left:32rpx;
+}
+.friend-name{
+    color:rgb(61,61,61);
+}
+.friend-position{
+    margin-left:10rpx;
+    color:rgb(125,125,125)
+}
+.friend-company{
+    margin-top:16rpx;
+    color:rgb(95,95,95)
+}
+.message{
+    width:60rpx;
+    display:flex;
+    align-items: center;
+    margin-left:auto;
+}
+.icon-message{
+    width:30rpx;
+    height:30rpx;
+}
+.message-txt{
+    color:rgb(143,142,142)
+}
+.collect{
+    position:absolute;
+    right:20rpx;
+    top:-2rpx;
+    width:64rpx;
+}
+.collect-img{
+    position:relative;
+}
+.collect-bg{
+    width:64rpx;
+    height:100rpx;
+}
+.icon-collect{
+    position:absolute;
+    display:flex;
+    margin-top:auto;
+    width:32rpx;
+    height:32rpx;
+}
+.carte-photo{
+    width:116rpx;
+    height:116rpx;
+}

@@ -1,0 +1,62 @@
+/* pages/create/create.wxss */
+@import "../../common/common.wxss";
+
+.parent {
+  /* height: 100%; */
+  /* padding: 32rpx;
+  background-image: url('https://c.pxhere.com/photos/98/8a/ama_dablam_the_himalayas_mountain_mountains_nepal_sky_a_view_of_the_mountains_climbing-493574.jpg!d');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%; */
+}
+
+.input {
+  display: flex;
+  flex-flow: column;
+  /* width: 480rpx; */
+  height: 78rpx;
+  justify-content: flex-end;
+}
+
+.input-name {
+  margin-top: 70rpx;
+}
+
+.input-another {
+  margin-top: 10rpx;
+}
+
+.more {
+  margin-top: 44rpx;
+  font-size: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.more-icon {
+  margin-top: 20rpx;
+}
+
+.more-view {
+  border: 1px solid #5bccb1;
+  padding-left: 69rpx;
+  padding-right: 69rpx;
+  padding-bottom: 68rpx;
+  border-radius: 8rpx;
+  margin-bottom: 54rpx;
+}
+
+.foot text {
+  font-size: 22rpx;
+}
+
+.btn {
+  margin-top: 30rpx;
+  font-size: 36rpx;
+  width: 600rpx;
+  height: 86rpx;
+  background-color: #5bccb1;
+  border-radius: 43rpx;
+  justify-content: center;
+  color: white;
+  margin-bottom: 110rpx;
+}

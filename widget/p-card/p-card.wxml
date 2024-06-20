@@ -1,0 +1,60 @@
+<!-- widget/p-card/index.wxml -->
+<view class="p-card w100">
+  <view class="head">
+    <image class="profile" src="{{defHeadUrl}}"></image>
+  </view>
+  <view class="content">
+    <view class="content-top">
+      <image class="img48" src="../../img/index/theme.png"></image>
+      <image class="img48" src="../../img/index/edit.png"></image>
+    </view>
+    <view class="content-detail w100">
+      <view class="content-detail-top d-cloumn">
+        <text class="name">易烊千玺</text>
+
+        <text class="title">互联网/视觉设计</text>
+        <view>
+          <text class="title">中智融合数字媒体产业有限公司</text>
+          <image class="img28" src="../../img/index/qi.png"></image>
+        </view>
+      </view>
+      <view class="btns w100">
+        <view class="icon" hover-stop-propagation="true">
+          <image class="img48" src="../../img/index/like.png"></image> <text>800</text>
+        </view>
+        <view class="icon" hover-stop-propagation="true">
+          <image class="img48" src="../../img/index/collect.png"></image> <text>1023</text>
+        </view>
+        <view class="icon" hover-stop-propagation="true">
+          <image class="img48" src="../../img/index/browse.png"></image> <text>8866</text>
+        </view>
+      </view>
+      <view class="items">
+        <view class="detail-bottom">
+          <view class="item">
+            <image class="img48" src="../../img/index/tel.png"></image>
+            <text>132-9995-0025</text>
+          </view>
+          <view class="item">
+            <image class="img48" src="../../img/index/email.png"></image>
+            <text>123456789@qq.com</text>
+          </view>
+          <view class="item address">
+            <view class="flex-row">
+              <image class="img48" src="../../img/index/position.png"></image>
+              <text>武汉市东西湖开发区...</text>
+            </view>
+            <view class="position">
+              <image class="img24" src="../../img/index/navigation.png"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="pcard-foot">
+      <view>
+        <image class="img48" src="../../img/index/add.png"></image> <text>新增名片</text>
+      </view>
+    </view>
+  </view>
+</view>

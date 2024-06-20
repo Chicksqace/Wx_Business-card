@@ -1,0 +1,58 @@
+<view class="main">
+    <view  class="com-border d-row justify-content c-border-1">
+        <text class="ft26 c-name">企业名称</text>
+        <input class="c-input-style"  type="text" value="" placeholder="请输入" placeholder-class="input-placeholder" />
+    </view>
+
+    <view  class="com-border d-row justify-content c-border-1">
+        <text class="ft26 c-name">企业网址</text>
+        <input class="c-input-style"  type="text" value="" placeholder="请输入" placeholder-class="input-placeholder" />
+    </view>
+
+    <view  class="com-border d-row justify-content c-border-1">
+        <text class="ft26 c-name">企业简介</text>
+        <input class="c-input-style"  type="text" value="" placeholder="（500字以内）" placeholder-class="input-placeholder" />
+    </view>
+
+    <view class="photo-model">
+        <view class="d-row justify-start photo-title">
+            <image class="icon-print" src="../../img/company/icon-small-01.png" />
+            <text class="photo-title-name c-font-1">企业相册</text>
+        </view>
+        <view  class="d-row space-between photo-swiper">
+            <view class="d-column justify-content slider-list c-border-1">
+                <image class="icon-up mb" src="../../img/company/icon-large-02.png" />
+                <text class="tip-txt">最多支持6张图上传</text>
+                <text class="tip-txt">图片尺寸400*400像素</text>
+            </view>
+            <view class="d-column justify-content slider-list c-border-1">
+                <image class="icon-up" src="../../img/company/icon-large-02.png" />
+            </view>
+             <view class="d-column justify-content slider-list c-border-1">
+                <image class="icon-up" src="../../img/company/icon-large-02.png" />
+            </view>
+        </view>
+    </view>
+
+    <view class="photo-model">
+        <view class="d-row justify-start photo-title">
+            <image class="icon-print" src="../../img/company/icon-small-01.png" />
+            <text class="photo-title-name  c-font-1">企业宣传视频</text>
+        </view>
+        <view  class="d-coloumn photo-swiper">
+            <view class="video-play d-column justify-content c-border-1">
+                <image class="icon-up mb" src="../../img/company/icon-large-02.png" />
+                <text class="tip-txt">视频大小请控制在25M与5分钟内</text>
+                <text class="tip-txt">如果您没有宣传片，可致电：</text>
+                <text class="tip-txt">400 - 999 - 1234</text>
+            </view>
+        </view>
+    </view>
+
+
+    <view class="photo-btn-model">
+        <button bindtap="goToFirm"  class="submit-btn">保存</button>
+    </view>
+
+
+</view>

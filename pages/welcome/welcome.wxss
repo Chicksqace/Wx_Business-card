@@ -1,0 +1,56 @@
+/* pages/welcome/welcome.wxss */
+@import "../../common/common.wxss";
+
+.parent {
+  width: 100%;
+}
+
+.skip {
+  /* width: 58rpx;
+  height: 28rpx; */
+  width: 88rpx;
+  height: 48rpx;
+  background-color: rgb(204, 204, 204);
+  color: white;
+  font-size: 24rpx;
+  border-radius: 24rpx;
+  position: absolute;
+  top: 40rpx;
+  right: 30rpx;
+  justify-content: center;
+}
+
+.chahua {
+  width: 694rpx;
+  height: 580rpx;
+  margin-top: 104rpx;
+}
+
+.prompt {
+  width: 1.0rem;
+  font-size: 32rpx;
+  align-items: center;
+  color: rgb(51, 51, 51);
+  justify-content: center;
+  margin-bottom: 56rpx;
+}
+
+.logo {
+  width: 347rpx;
+  height: 110rpx;
+
+}
+
+.btn {
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210rpx;
+  height: 54rpx;
+  border-radius: 27rpx;
+  border: 1px solid #5bccb1;
+  font-size: 32rpx;
+  color: #5bccb1;
+  margin-bottom: 82rpx;
+}

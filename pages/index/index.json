@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "pCard": "../../widget/p-card/p-card"
+  }
+}

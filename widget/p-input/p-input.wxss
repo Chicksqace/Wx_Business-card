@@ -1,0 +1,15 @@
+/* widget/p-input/p-input.wxss */
+@import "../../common/common.wxss";
+
+.pinput-switch {
+  margin-left: 38rpx;
+  zoom: .6;
+}
+
+button {
+  line-height: 100%;
+}
+
+button::after {
+  border: none;
+}

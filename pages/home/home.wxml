@@ -1,0 +1,169 @@
+<view class="parent">
+    <image class="bg index-bg" src="../../img/index/bg.png"></image>
+  
+  
+  
+  <!-- widget/p-card/index.wxml -->
+  <view class="p-card">
+      <view class="head">
+        <image class="profile" src="../../img/index/profile.jpg"></image>
+      </view>
+      <view class="content">
+        <view class="content-top d-row justify-between">
+          <view>
+              <!-- <image class="img48" src="../../img/index/theme.png"></image> -->
+          </view>
+          <view>
+              <!-- <image class="img48" src="../../img/index/edit.png"></image> -->
+          </view>
+        </view>
+        <view class="content-detail w100">
+          <view class="content-detail-top d-column justify-start">
+            <text class="name">中国启网</text>
+    
+            <text class="title">互联网/视觉设计</text>
+            <view>
+              <text class="title">深圳某某媒体产业有限公司</text>
+              <image class="img28" src="../../img/index/qi.png"></image>
+            </view>
+          </view>
+          <view class="d-row justify-content w100">
+            <view class="icon d-column justify-content" hover-stop-propagation="true">
+              <image class="img48" src="../../img/index/like.png"></image> <text>800</text>
+            </view>
+            <view class="icon  d-column justify-content" hover-stop-propagation="true">
+              <image class="img48" src="../../img/index/collect.png"></image> <text>1234</text>
+            </view>
+            <view class="icon  d-column justify-content" hover-stop-propagation="true">
+              <image class="img48" src="../../img/index/browse.png"></image> <text>5678</text>
+            </view>
+          </view>
+          <view class="items">
+            <view class="detail-bottom justify-between">
+              <view class="item">
+                <image class="img48" src="../../img/index/tel.png"></image>
+                <text>132-8888-8888</text>
+              </view>
+              <view class="item">
+                <image class="img48" src="../../img/index/email.png"></image>
+                <text>123456789@qq.com</text>
+              </view>
+              <view class="item address d-row justify-between">
+                <view class="flex-row">
+                  <image class="img48" src="../../img/index/position.png"></image>
+                  <text>安徽省合肥市...</text>
+                </view>
+                <view class="position">
+                  <image class="img24" src="../../img/index/navigation.png"></image>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <!-- <view class="pcard-foot">
+          <view class="d-row justify-start">  
+            <image class="img48" src="../../img/index/add.png"></image> <text>新增名片</text>
+          </view>
+        </view> -->
+      </view>
+    </view>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <view class="m-footer d-row justify-between">
+        <view class="menu-list d-column justify-content ">
+            <view>
+              <image class="menu-icon" src="../../img/index/Message.png"></image>
+            </view>
+            <text class="ft22 menu-title-txt">联系他</text>
+        </view>
+        <view class="menu-list-middle d-column justify-content"  bindtap="goToCarte" >
+            <view>
+              <image class="menu-icon" src="../../img/index/address-Book.png"></image>
+            </view>
+            <text class="ft22 menu-title-txt current">保存到通讯录</text>
+        </view>
+        <view class="menu-list d-column justify-content">
+            <view>
+              <image class="menu-icon" src="../../img/index/Share-1.png"></image>
+            </view>
+            <text class="ft22 menu-title-txt">分享名片</text>
+        </view>
+    </view>
+
+
+
+
+
+
+
+
+
+  
+    <view class="m-more d-column justify-content">
+        <button class="creation-btn c-bg-1 c-border-1 d-row justify-content">创建我的名片  <image class="more-btn" src="../../img/index/icon-s-01.png"   bindtap='goToMore'></image>  </button>
+    </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <view class="home-company {{showView?'hide':'show'}}">
+        <view class="d-row justify-start firm-header">
+            <view class="c-border-1  c-bg-1 icon-border"></view>
+            <text class="c-font-1 firm-name">企业专区</text>
+        </view>
+  
+        <view  class="d-coloumn photo-swiper">
+            <view class="video-play d-column justify-content c-border-1">
+                <image class="icon-up mb" src="../../img/index/icon-large-02.png"   bindtap="goToCompany"/>
+                <text class="tip-txt">展现更多企业信息，可以让大家更了解你哦！</text>
+            </view>
+        </view>
+  
+  
+        <view class="d-row justify-start firm-header">
+            <view class="c-border-1 c-bg-1 icon-border"></view>
+            <text class="c-font-1 firm-name">产品专区</text>
+        </view>
+  
+        <view  class="d-coloumn photo-swiper">
+            <view class="video-play d-column justify-content c-border-1">
+                <image class="icon-up mb" src="../../img/index/icon-large-02.png" bindtap="goToProduct" />
+                <text class="tip-txt">展现更多企业信息，可以让大家更了解你哦！</text>
+            </view>
+        </view>
+       
+    
+    </view>
+  
+  
+  
+  </view>

@@ -1,0 +1,36 @@
+<!--pages/create/create.wxml-->
+<view class="parent">
+  <!-- <pCard class="pcard w100"></pCard> -->
+  <!-- <pInput class="w100" type="more"></pInput> -->
+  <pHead class="w100" type="more"></pHead>
+  <pInput class="input input-name" title="姓名" bind:onInput="onInput" id="name"></pInput>
+  <pInput class="input input-another" title="职务" bind:onInput="onInput" id="office"></pInput>
+  <pInput class="input input-another" title="公司" bind:onInput="onInput" id="company"></pInput>
+  <pInput class="input input-another" title="行业" bind:onInput="onInput" id="industry"></pInput>
+  <pInput class="input input-another" title="电话" type="tel" bind:onInput="onInput" id="tel"></pInput>
+  <pInput class="input input-another" title="邮箱" bind:onInput="onInput" id="email"></pInput>
+  <pInput class="input input-another" title="地址" type="address" bind:onInput="onInput" id="address"></pInput>
+  <view class="more" bindtap="clickMore">
+    <text>{{isShowMore?'收起':'更多内容'}}</text>
+    <image class="img24 more-icon" src="{{moreIcon}}"> </image>
+  </view>
+  <view class="more-view" wx:if="{{isShowMore}}">
+    <pInput class="input input-another" isShowIcon="{{false}}" title="性别" bind:onInput="onInput" id="sex"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="微信" bind:onInput="onInput" id="wechat"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="年龄" bind:onInput="onInput" id="age"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="星座" bind:onInput="onInput" id="constellation"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="QQ" bind:onInput="onInput" id="qq"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="简介" bind:onInput="onInput" id="brief"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="网址" bind:onInput="onInput" id="website"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="传真" bind:onInput="onInput" id="fax"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="经营范围" bind:onInput="onInput" id="scopeOperation"></pInput>
+    <pInput class="input input-another" isShowIcon="{{false}}" title="设置为主名片" type="switch" bind:onSwitchChange="onSwitch"
+      id="wechat"></pInput>
+  </view>
+  <view class="foot">
+    <text>首页填写企业、产品信息，可以让大家更了解你哦！</text>
+    <view class="btn">
+      保存
+    </view>
+  </view>
+</view>

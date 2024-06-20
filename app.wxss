@@ -1,0 +1,107 @@
+/**app.wxss**/
+page {
+  height: 100%;
+}
+
+/* .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} */
+
+/* view {
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+} */
+
+image {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.w100 {
+  width: 100%;
+}
+.d-row{
+  display: flex;
+  flex-direction: row;
+}
+.d-column{
+  display: flex;
+  flex-direction: column;
+}
+.justify-between{
+  justify-content: space-between;
+  align-items: center;
+}
+.justify-content{
+  justify-content: center;
+  align-items: center;
+}
+.justify-start{
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ft18{
+  font-size:18rpx;
+}
+.ft22{
+  font-size:22rpx;
+}
+.ft24{
+ font-size:24rpx;
+}
+.ft25{
+ font-size:25rpx;
+}
+.ft26{
+  font-size: 26rpx;
+}
+.ft36{
+ font-size:36rpx;
+}
+.mt10{
+ margin-top:10rpx;
+}
+.c-bg-1{
+  background: rgb(92, 205, 177)
+}
+.c-border-1{
+  border-color:rgb(92, 205, 177);
+  border-style: solid;
+}
+
+.c-font-1{
+    color: rgb(92, 205, 177);
+}
+.c-font-2{
+  color: rgb(91, 204, 177);
+}
+.input-placeholder{
+  font-size: 26rpx;
+}
+.com-lr{
+  margin-left: 54rpx;
+  margin-right: 54rpx;
+}
+.mb15{
+  margin-bottom: 15rpx;
+}
+.main{
+  width: 100%;
+}
+.menu-title-txt.current{
+  color: rgb(92, 205, 177);
+} 
+
+
+
+  

@@ -1,0 +1,22 @@
+<!--widget/p-input/p-input.wxml-->
+<view class="flex-row {{typeMore?'p-input-more':'p-input'}}  {{isShowIcon?'':'input-border'}}">
+  <image class="img48 {{isShowIcon?'':'visibility'}}"  src="{{icon?icon:defIcon}}" mode="aspectFit|aspectFill|widthFix">
+  </image>
+  <view class="input-title">
+    {{title}}
+  </view>
+  <input class="h100 p-i" wx:if="{{!typeSwitch}}" value="" type="text" maxlength="140" bindinput="onInput" />
+
+
+  <switch class="pinput-switch" checked="true" type="switch" bindchange="onSwitchChange" wx:if="{{typeSwitch}}" color="#5bccb1">
+
+  </switch>
+  <!-- <checkbox value="" checked="" wx:if="
+    {{typeCheckBox}}" /> -->
+  <button class="input-right" hover-class="none" open-type="getPhoneNumber" bindgetphonenumber="onGotTel" wx:if="{{typeTel}}">
+    一键获取
+  </button>
+  <view class="img48 center" wx:if="{{typeAds}}" bindtap="clickNavigation">
+    <image class="img24" src="../../img/p-input/navigation.png"></image>
+  </view>
+</view>

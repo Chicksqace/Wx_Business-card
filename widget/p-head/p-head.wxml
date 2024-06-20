@@ -1,0 +1,8 @@
+<!--widget/p-head/p-head.wxml-->
+<view class="p-head">
+  <image class="bg" mode="aspectFit" src="../../img/p-head/bg.png"></image>
+  <view>
+    <image class="head-img" mode="aspectFill" src="{{headUrl?headUrl:defIcon}}"></image>
+    <image class="camera" bindtap="clickCamera" src="../../img/p-head/camera.png"></image>
+  </view>
+</view>

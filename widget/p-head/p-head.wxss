@@ -1,0 +1,15 @@
+/* widget/p-head/p-head.wxss */
+@import "../../common/common.wxss";
+
+.camera {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  right: 8rpx;
+  bottom: 16rpx;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+}

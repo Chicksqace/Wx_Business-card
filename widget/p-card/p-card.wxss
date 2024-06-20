@@ -1,0 +1,126 @@
+/* widget/p-card/index.wxss */
+@import "../../common/common.wxss";
+
+.w100 {
+  width: 100%;
+}
+
+.p-card {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.profile {
+  width: 174rpx;
+  height: 174rpx;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  position: absolute;
+}
+
+.content {
+  padding: 30rpx;
+  margin-top: 96rpx;
+  width: 90%;
+  border: 4rpx solid #5bccb1;
+  border-radius: 16rpx;
+}
+
+.content-top {
+  width: 100%;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.content-detail {
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+
+}
+
+.content-top-img {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+
+.content-detail-top view {
+  flex-flow: row;
+}
+
+.name {
+  font-size: 40rpx;
+  font-weight: 900;
+  padding: 8rpx;
+}
+
+.title {
+  font-size: 24rpx;
+  padding: 4rpx;
+  color: #acacac;
+}
+
+.btns {
+  justify-content: center;
+  flex-flow: row;
+}
+
+.icon {
+  margin: 32rpx;
+}
+
+
+.btns text {
+  font-size: 28rpx;
+  margin-top: 16rpx;
+}
+
+
+.detail-bottom {
+  justify-content: flex-start;
+}
+
+.item {
+  margin: 20rpx;
+  flex-flow: row;
+  width: 100%;
+}
+
+
+.foot {
+  margin-top: 28rpx;
+  flex-flow: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.position {
+  height: 100%;
+  align-items: flex-end;
+  right: 0rpx;
+}
+
+.items {
+  flex-flow: row;
+  height: auto;
+  align-items: flex-end;
+}
+
+.pcard-foot {
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 32prx;
+}
+
+.address {
+  justify-content: space-between;
+}
+
+.address_view {
+  flex-flow: row;
+}
